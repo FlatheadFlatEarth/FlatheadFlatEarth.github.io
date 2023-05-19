@@ -20,20 +20,23 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Build HTML using oxr463/setup-leiningen
-        uses: oxr463/setup-leiningen@0.0.1
-        with:
-          exec: lein run
+      - name: Hello World
+        run: echo "hello world!"
 
-      - name: Copy the HTML to the public folder
-        run: mkdir _site
+      #- name: Build HTML using oxr463/setup-leiningen
+      #  uses: oxr463/setup-leiningen@0.0.1
+      #  with:
+      #    exec: lein run
 
-      - name: Copy the HTML to the public folder
-        run: cp rendered/* _site
+      #- name: Copy the HTML to the public folder
+      #  run: mkdir _site
 
-      - name: Copy the contents of resources/public/ to the public folder
-        run: cp resources/public _site
+      #- name: Copy the HTML to the public folder
+      #  run: cp rendered/* _site
 
-      - uses: actions/upload-pages-artifact
+      #- name: Copy the contents of resources/public/ to the public folder
+      #  run: cp resources/public _site
 
-      - uses: actions/deploy-pages
+      #- uses: actions/upload-pages-artifact
+
+      #- uses: actions/deploy-pages
