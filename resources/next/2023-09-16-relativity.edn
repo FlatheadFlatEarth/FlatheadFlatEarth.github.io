@@ -1,0 +1,17 @@
+{
+ :title "Relativity: Fact or Fiction?"
+ :date "9/16/23"
+ :time/start "18:00"
+ :time/end   "20:00"
+ :host :dk
+ :presenters []
+ :venue :brannigans/library
+
+ :description "In this session, we'll be looking at
+              one of the foundations of modern science: Einstein's Relativity.
+
+              What is not commonly discussed about relativity is
+
+              "
+ :fee "Free, but Brannigans will only continue to host us if we are a profitable customer for them; please order food & drink to your heart's content."
+}

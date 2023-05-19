@@ -1,0 +1,27 @@
+{
+ :title "We Can See Too Far"
+ :date "07/22/23"
+ :time/start "18:00"
+ :time/end   "20:00"
+ :event/type :presentation
+ :host :dk
+ :presenters [:dk :athanasius]
+ :venue :brannigans/library
+
+ :description "In our second presentation, we'll be discussing one of the most easily-observable indications that the Earth is not a globe: we can see too far.
+
+              One common argument in favor of the globe is that of 'ships disappearing over the horizon.' Unfortunately for the globers, this argument can be falsified through the use of a high-powered telescope. Indeed, ships that have 'disappeared' over the horizon can often be restored to view by use of high magnification. Despite most globe believers telling you that this effect is due to atmospheric refraction, we can demonstrate that this claim does not hold up to close scrutiny.
+
+              In this talk, we will compare the expected versus the actual results when seeking to detect Earth's curvature, as well as the underlying principles at play. Moreover, David has performed this experiment in the field and will share from his experience.
+
+              Given that we live along the shores of one of the largest lakes in the US, we have the opportunity to practice this experiment in our backyard. See the event calendar for time and location information on this experiment.
+
+              Schedule:
+
+              6PM - Doors Open
+              6:15PM - Presentation Begins
+              7:15PM - Q&A
+              Afterwards - Social hour"
+
+ :fee "Free, but Brannigan's will only continue to host us if we are a profitable customer; please order food & drink to your heart's content."
+}

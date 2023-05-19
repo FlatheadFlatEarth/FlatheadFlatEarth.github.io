@@ -1,0 +1,8 @@
+{
+ :venue/id :brannigans/library
+ :venue/name "Brannigan's Pub"
+ :venue/address "101 E Center St, Kalispell, MT 59901"
+ :venue/maps-url "https://goo.gl/maps/9tM5YkdrskT2ujYu6"
+ :venue/detail "Library Room (first floor)"
+ :venue/url "https://branniganspub.com/"
+}

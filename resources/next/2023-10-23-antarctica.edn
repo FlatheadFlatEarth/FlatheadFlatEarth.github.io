@@ -1,0 +1,21 @@
+{
+ :title "Antarctica: The Forbidden Continent"
+ :date "10/21/23"
+ :time/start "18:00"
+ :time/end   "20:00"
+ :host :dk
+ :presenters []
+ :venue :brannigans/library
+
+ :description "In this session, we'll be discussing Antarctica, a place that few have been to.
+
+              Why is it that this place is off-limits for most travelers?
+
+              Why are there two separate research bases on this 'continent?'
+
+              Supposedly, the sun can be seen for months at a time during the Antarctic winter. Is this so?
+
+              "
+
+ :fee "Free, but Brannigans will only continue to host us if we are a profitable customer for them; please order food & drink to your heart's content."
+}

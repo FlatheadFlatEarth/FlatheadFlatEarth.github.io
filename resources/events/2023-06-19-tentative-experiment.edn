@@ -1,0 +1,22 @@
+{
+ :title "Tentative: Sun Position Experiment"
+ :date "06/19/23"
+ :time/start "10:00"
+ :time/end   "13:00"
+ :event/type :experiment
+ :host :dk
+ :presenters [:dk :athanasius]
+ :venue :tbd
+
+ :description "In 2023, the Summer Solstice falls on June 21. On both the globe and flat earth, this is the date that the sun appears to be most northerly in the sky. As such, this is a unique opportunity for us to measure the sun's position in the sky.
+
+              We'll get better results by performing this experiment exactly on the Solstice on June 21, but we are hosting a public trial on June 19, so that more can attend. We may run the experiment again on the Solstice in order to get a better result.
+
+              US Army Field Artilleryman Corey Kell famously performed this experiment 80 times while overseas in Afghanistan. His findings have found that the heliocentric, globe model of the universe is woefully inaccurate in predicting the position of the sun in the sky.
+
+              We plan to replicate his experiment in order to gather additional primary evidence that the globe model of the universe is not the correct one.
+
+              The logistics are still coming together for this one. We'll need to identify a suitable location from which to perform our observations. Stay tuned."
+
+ :fee "Free"
+}

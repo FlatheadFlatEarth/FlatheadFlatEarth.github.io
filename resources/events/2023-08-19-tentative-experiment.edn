@@ -1,0 +1,19 @@
+{
+ :title "Tentative: Earth Curvature Experiment"
+ :date "08/19/23"
+ :time/start "10:00"
+ :time/end   "13:00"
+ :event/type :experiment
+ :host :dk
+ :presenters [:dk :athanasius]
+ :venue :tbd
+
+ :description "For this event, we'll be performing one of the classic Flat Earth experiments: measuring Earth's curvature.
+
+              This experiment builds on the previous lecture on 'We Can See Too Far:' we'll be putting this to the test by performing observations in the field.
+
+              Both the globe model and the flat earth model believe that water will find its level. We can use this point of agreement to conduct observations across a large body of water in order to determine whether the Earth exhibits the curvature that is modeled in our textbooks.
+
+              The logistics are still coming together for this one. Stay tuned."
+ :fee "Free"
+}

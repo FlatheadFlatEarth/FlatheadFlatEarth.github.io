@@ -1,0 +1,33 @@
+.event {
+  border-style: solid;
+  padding: 16px 0px 20px 24px;
+  margin: 0px 0px 40px 0px;
+}
+
+.pairLabel {
+  font-weight: bold;
+}
+
+.mainContainer {
+  padding: 20px;
+}
+
+.welcomeText {
+  padding: 20px 20px 20px 24px;
+  margin: 4px 80px 40px 0px;
+}
+
+.eventDescription {
+  padding: 0px 12px 0px 0px;
+}
+
+#footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  line-height: 50px;
+  color: #aaa;
+  text-align: center;
+  width: 100%;
+}
