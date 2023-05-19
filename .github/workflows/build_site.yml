@@ -23,10 +23,10 @@ jobs:
       - name: Hello World
         run: echo "hello world!"
 
-      #- name: Build HTML using oxr463/setup-leiningen
-      #  uses: oxr463/setup-leiningen@0.0.1
-      #  with:
-      #    exec: lein run
+      - name: Build HTML using oxr463/setup-leiningen
+        uses: oxr463/setup-leiningen@0.0.1
+        with:
+          exec: lein run
 
       #- name: Copy the HTML to the public folder
       #  run: mkdir _site
