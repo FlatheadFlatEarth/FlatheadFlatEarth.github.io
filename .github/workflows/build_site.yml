@@ -35,7 +35,7 @@ jobs:
         run: cp rendered/* _site
 
       - name: Copy the contents of resources/public/ to the public folder
-        run: cp resources/public _site
+        run: cp -r resources/public/* _site
 
       - uses: actions/upload-pages-artifact@v1.0.8
 
