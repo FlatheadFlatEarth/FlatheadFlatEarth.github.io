@@ -18,7 +18,7 @@
     [ring.adapter.jetty :refer [run-jetty]]
     [stasis.core :as stasis]))
 
-(def target-dir "target/")
+(def target-dir "resources/public")
 
 (defn get-assets []
   (assets/load-assets "public" ["/styles/app.css"
