@@ -29,13 +29,14 @@ jobs:
           exec: lein run
 
       - name: Copy the HTML to the public folder
-        run: cp rendered/* public
+        run: mkdir _site
+
+      - name: Copy the HTML to the public folder
+        run: cp rendered/* _site
 
       - name: Copy the contents of resources/public/ to the public folder
-        run: cp resources/public public
+        run: cp resources/public _site
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - uses: actions/upload-pages-artifact
+
+      - uses: actions/deploy-pages
