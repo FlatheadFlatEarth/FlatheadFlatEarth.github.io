@@ -9,4 +9,5 @@
                  [ring/ring-jetty-adapter "1.10.0"]]
   :plugins [[lein-ring "0.12.6"]]
   :ring {:handler flathead.core/app}
+  :main flathead.core
   :repl-options {:init-ns flathead.core})

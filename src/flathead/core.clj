@@ -16,9 +16,10 @@
 
     [ring.middleware.content-type :refer [wrap-content-type]]
     [ring.adapter.jetty :refer [run-jetty]]
-    [stasis.core :as stasis]))
+    [stasis.core :as stasis])
+  (:gen-class))
 
-(def target-dir "resources/public")
+(def target-dir "rendered")
 
 (defn get-assets []
   (assets/load-assets "public" ["/styles/app.css"
@@ -74,6 +75,9 @@
 
 (defn run-server []
   (run-jetty app {:port 3000}))
+
+(defn -main []
+  (export))
 
 (get-assets)
 
