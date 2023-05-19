@@ -28,15 +28,15 @@ jobs:
         with:
           exec: lein run
 
-      #- name: Copy the HTML to the public folder
-      #  run: mkdir _site
+      - name: Copy the HTML to the public folder
+        run: mkdir _site
 
-      #- name: Copy the HTML to the public folder
-      #  run: cp rendered/* _site
+      - name: Copy the HTML to the public folder
+        run: cp rendered/* _site
 
-      #- name: Copy the contents of resources/public/ to the public folder
-      #  run: cp resources/public _site
+      - name: Copy the contents of resources/public/ to the public folder
+        run: cp resources/public _site
 
-      #- uses: actions/upload-pages-artifact
+      - uses: actions/upload-pages-artifact
 
-      #- uses: actions/deploy-pages
+      - uses: actions/deploy-pages
